@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCItpSrEJuDlVTQA2PClM1EHY4d0OXq4A4',
-    appId: '1:1067162591149:web:d856408785cf6bc518cb24',
-    messagingSenderId: '1067162591149',
-    projectId: 'global-talk-a199b',
-    authDomain: 'global-talk-a199b.firebaseapp.com',
-    storageBucket: 'global-talk-a199b.appspot.com',
-    measurementId: 'G-1X9QWH47S1',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBG8NwSKR6m-BMny7HMqIkcrlnt2clrmck',
-    appId: '1:1067162591149:android:1272c34acc73c21418cb24',
-    messagingSenderId: '1067162591149',
-    projectId: 'global-talk-a199b',
-    storageBucket: 'global-talk-a199b.appspot.com',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAsD9l6-_EX_-50mNRBxc4siACVtc4S19M',
-    appId: '1:1067162591149:ios:f2adf8418cd2f8eb18cb24',
-    messagingSenderId: '1067162591149',
-    projectId: 'global-talk-a199b',
-    storageBucket: 'global-talk-a199b.appspot.com',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
     iosBundleId: 'com.example.globalTalkApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAsD9l6-_EX_-50mNRBxc4siACVtc4S19M',
-    appId: '1:1067162591149:ios:f2adf8418cd2f8eb18cb24',
-    messagingSenderId: '1067162591149',
-    projectId: 'global-talk-a199b',
-    storageBucket: 'global-talk-a199b.appspot.com',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
     iosBundleId: 'com.example.globalTalkApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCItpSrEJuDlVTQA2PClM1EHY4d0OXq4A4',
-    appId: '1:1067162591149:web:aa32eaa5ad8b7f2e18cb24',
-    messagingSenderId: '1067162591149',
-    projectId: 'global-talk-a199b',
-    authDomain: 'global-talk-a199b.firebaseapp.com',
-    storageBucket: 'global-talk-a199b.appspot.com',
-    measurementId: 'G-XYFXYEK6FP',
+    apiKey: 'YOUR_WINDOWS_API_KEY',
+    appId: 'YOUR_WINDOWS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
 }
